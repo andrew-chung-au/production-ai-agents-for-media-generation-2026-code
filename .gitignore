@@ -1,0 +1,27 @@
+# OS & editor files
+.DS_Store
+.idea
+.ipynb_checkpoints/
+
+# Python & virtual environments
+__pycache__/
+**/__pycache__/
+.venv/
+.DEV/
+
+# Secrets & local runtime outputs
+.env
+**/.env
+logs/
+**/logs/
+runs/
+
+# Infrastructure & credentials
+*.tfstate
+*.tfstate.*
+.terraform/
+**/.terraform/
+.terraform.lock.hcl
+**/.terraform.lock.hcl
+google_credentials.json
+**/google_credentials.json
